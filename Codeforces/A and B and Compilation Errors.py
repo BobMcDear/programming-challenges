@@ -1,0 +1,6 @@
+n = int(input())
+bugs = list(map(int, input().split()))
+second_compile = list(map(int, input().split()))
+third_compile = list(map(int, input().split()))
+print(sum(bugs) - sum(second_compile))
+print(sum(second_compile) - sum(third_compile))
